@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#f6f2e9">
+	<meta name="theme-color" content="#f1dfca">
 	<title>Tucano Coffee | Good coffee, good company</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,10 @@
 <body>
 	<header class="site-header">
 		<a class="wordmark" href="#home" aria-label="Tucano Coffee home">
-			<span class="wordmark-mark" aria-hidden="true">T</span>
+			<span class="wordmark-mark" aria-hidden="true">
+				<span class="cup-steam"><i></i><i></i><i></i></span>
+				<span class="cup-icon"><i></i></span>
+			</span>
 			<span>Tucano<span class="wordmark-light">Coffee</span></span>
 		</a>
 		<nav class="main-nav" aria-label="Main navigation">
@@ -49,6 +52,21 @@
 			<a href="#visit">A little more about Tucano <span aria-hidden="true">↗</span></a>
 		</section>
 
+		<section class="coffee-gallery" aria-label="Coffee at Tucano">
+			<figure class="coffee-photo coffee-photo-tall">
+				<img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=85" alt="A fresh pour of coffee in a ceramic cup" loading="lazy">
+				<figcaption>The first good thing</figcaption>
+			</figure>
+			<figure class="coffee-photo">
+				<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85" alt="A latte ready to enjoy" loading="lazy">
+				<figcaption>Made slowly, served warmly</figcaption>
+			</figure>
+			<figure class="coffee-photo coffee-photo-wide">
+				<img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1100&q=85" alt="A welcoming neighborhood coffee shop" loading="lazy">
+				<figcaption>Your seat is waiting</figcaption>
+			</figure>
+		</section>
+
 		<section class="menu-preview" id="menu" aria-labelledby="menu-title">
 			<div class="section-heading">
 				<div>
@@ -60,20 +78,21 @@
 			<div class="drinks-list">
 				<article class="drink-item">
 					<span class="drink-number">01</span>
-					<div><h3>Honey Oat Latte</h3><p>Espresso, oat milk, a little local honey.</p></div>
+					<div><h3>Honey Oat Latte</h3><p>Double espresso, steamed oat milk, local honey, cinnamon.</p></div>
 					<span class="drink-mark" aria-hidden="true">✳</span>
 				</article>
 				<article class="drink-item">
 					<span class="drink-number">02</span>
-					<div><h3>House Cappuccino</h3><p>Our everyday espresso, wrapped in silky foam.</p></div>
+					<div><span class="drink-tag">Barista's choice</span><h3>House Cappuccino</h3><p>House espresso, silky steamed milk, a dusting of cocoa.</p></div>
 					<span class="drink-mark" aria-hidden="true">✳</span>
 				</article>
 				<article class="drink-item">
 					<span class="drink-number">03</span>
-					<div><h3>Slow Day Cold Brew</h3><p>Steeped overnight. Smooth all the way through.</p></div>
+					<div><h3>Slow Day Cold Brew</h3><p>Single-origin coffee, filtered water, steeped low and slow for 18 hours.</p></div>
 					<span class="drink-mark" aria-hidden="true">✳</span>
 				</article>
 			</div>
+			<p class="menu-note"><strong>Make it yours.</strong> Whole, oat, or almond milk. Add a shot or a little extra sweetness.</p>
 		</section>
 	</main>
 
